@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Faustina:wght@500&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Faustina', serif;
+}
+/* .todo{
+  padding: 30px 40px;
+  background: rgb(157, 205, 243);
+}
+.todo::after{
+  display: table;
+}
+button{
+  background: skyblue;
+}
+h1{
+  background:rgb(226, 180, 123);
+} */
+.main{
+  background: rgb(252, 252, 95);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  
+}
+
+.add{
+   background-color:rgb(226, 116, 12);
+}
+
+input{
+  /* transform: scale(1.7); */
+  height:30px;
+  width: 60%;
+  font-size: 20px;
+}
+.center{
+  width: 25%;
+  height:70vh ;
+  line-height: 55px;
+  background:palevioletred;
+  
+  border-radius: 15px;
+  box-shadow: 5px 5px 25px -5px rgba(0,0,0,0.5);
+}
+ol li{
+  padding-left: 0px;
+}
+.todo_style .del{
+  width: 25px;
+  display: flex;
+  color:rgb(184, 241, 241);
+  float: right;
+  
+}
+.todo_style{
+  background:palevioletred;
+  cursor: pointer;
+  
+}
